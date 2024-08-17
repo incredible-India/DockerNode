@@ -41,6 +41,6 @@
 </pre>
 @docker volume
 <pre>
-  docker run --name ms -p 5500:80 --rm -v /Users/himanshu.y.sharma/Desktop/dockerpr/index.js:/myapp:v1 your_image_name
+docker run --name ms -p 5500:80 --rm -v /User/himanshu.y.sharma/Desktop/dockerpr/index.js:/myapp imagename:v1
 
 </pre>
