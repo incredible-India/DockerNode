@@ -44,3 +44,8 @@
 docker run --name ms -p 5500:80 --rm -v /User/himanshu.y.sharma/Desktop/dockerpr/index.js:/myapp imagename:v1
 
 </pre>
+
+#docker cobtainer background and automatic removed when it stops
+<pre>
+  docker run --name mycontainer -d --rm myimage:v1
+</pre>
