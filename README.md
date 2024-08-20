@@ -49,3 +49,11 @@ docker run --name ms -p 5500:80 --rm -v /User/himanshu.y.sharma/Desktop/dockerpr
 <pre>
   docker run --name mycontainer -d --rm myimage:v1
 </pre>
+
+
+#create volume 
+<pre>
+docker run -it  -v myvolume:/WROKDIRinDockerFIleAbsoulte -p x:y imageName
+  ex:
+  docker run -it  -v myvolume:/app -p 5500:8000 myapp:v2
+</pre>
